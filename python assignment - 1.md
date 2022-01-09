@@ -6,18 +6,18 @@ print("Question1")
 num1=int(input("Enter first number:"))
 num2=int(input("Enter second number:))
 num3=int(input("Enter third number:))
-total=(num1+num2+num3)/3
+total=(num1+num2+num3)/3   #calculating average
 print("Average of three number is: ",total)
 
 
 # QUESTION2: Write a python to complete a person's income tax. Assume the following tax laws:
 # ANSWER: 
 print("Question2")
-a=int(input("Enter your Gross Income(in nearest penney): $"))
-b=int(input("Enter your standard deduction))
-c=a-10000-(3000*b)
-Tax=c*0.2
-print("Your tax is $",Tax)
+a=int(input("Enter the Gross Income(in nearest penney): $")) #taking gross income input from user
+b=int(input("Enter the no. of dependents:" ))  #number of dependents given to user
+c=a-10000-(3000*b)  # calculating tax income
+Tax=c*0.2 #final tax
+print("Your tax is $", Tax)
 
 
 # QUESTION3: Write python program to store different data type values into the list.
@@ -42,6 +42,7 @@ std2=int(input("Enter marks of 2nd student"))
 std3=int(input("Enter marks of 3rd student"))
 std4=int(input("Enter marks of 4th student"))
 std5=int(input("Enter marks of 5th student"))
+#presenting these marks in a list and sorting them
 marks_list=[std1,std2,std3,std4,std5]
 marks_list.sort()
 print("Sorted list (decreasing order)")
@@ -53,15 +54,21 @@ print(marks_list)
 #ANSWER:
 print("Question5 (a)")
 # color_list = ['Red','Green','White','Black','Pink','Yellow']
-color_list.remove('Black')
+color_list.remove('Black')  #deleting black color from list
 print(color_list)
 
 (b).Remove 'Black' and 'pink' from the list and replace them with 'Purple'.
 #ANSWER:
 print("Question5 (b))
 color_list = ['Red','Green','White','Black','Pink','Yellow']
-color_list[3:5]=['Purple']
+color_list[3:5]=['Purple']  #replacing black and pink to purple
 print(color_list)
+
+
+
+
+
+ANSWER1 : 
 
 
 
